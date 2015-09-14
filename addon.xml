@@ -7,9 +7,9 @@
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
     <extension point="xbmc.addon.repository" name="Internet Archive Updates">
-        <info compressed="false">https://gist.githubusercontent.com/garbear/84648981d757dd64fdc8/raw/2f377fb6f4e8e4a2585e69fe9ae3f29b93528225/addons.xml</info>
-        <checksum>https://gist.githubusercontent.com/garbear/71fbbd47974dc1797be3/raw/a54db69d0d829a4f9b8b01c8e654a61e43b9f0e4/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/garbear/content.game.internet.archive/raw/master/release/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/garbear/repository.internet.archive/master/release/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/garbear/repository.internet.archive/master/release/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/garbear/repository.internet.archive/raw/master/release/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Internet Archive Updates</summary>
