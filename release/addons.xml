@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="content.game.internet.archive" name="Internet Archive Software Collection" version="1.0.0." provider-name="Garrett Brown">
+<addon id="content.game.internet.archive" name="Internet Archive Software Collection" version="1.0.0" provider-name="Garrett Brown">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
