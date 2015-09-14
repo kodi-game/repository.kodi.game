@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="content.game.internet.archive" name="Internet Archive" version="1.0.0." provider-name="Garrett Brown">
+<addon id="content.game.internet.archive" name="Internet Archive Software Collection" version="1.0.0." provider-name="Garrett Brown">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
   </requires>
   <extension point="kodi.content.game" library="addon.py"/>
   <extension point="xbmc.addon.metadata">
-    <summary>Internet Archive</summary>
-    <description>The Internet Archive provides free public access to collections of digitized materials, including web sites, software applications and games. As of October 2012, its collection topped 10 petabytes.
+    <summary>Games from the Internet Archive Software Collection</summary>
+    <description>The Internet Archive Software Collection is the largest vintage and historical software library in the world, providing instant access to millions of programs, CD-ROM images, documentation and multimedia.
 
 Based on Internet Archive ROM Launcher by Zach Morris.</description>
     <platform>all</platform>
