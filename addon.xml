@@ -14,7 +14,11 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Install game add-ons from Kodi.tv</summary>
-        <description lang="en_GB">Download and install add-ons from the Official Kodi.tv add-on repository.[CR]  By using the official Repository you will be able to take advantage of our extensive file mirror service to help get you faster downloads from a region close to you.[CR]  All add-ons on this repository have under gone basic testing, if you find a broken or not working add-on please report it to Team-Kodi so we can take any action needed.</description>
+        <description lang="en_GB">This repository is for development builds of Kodi's RetroPlayer project.</description>
+        <license>GPLv2</license>
+        <forum>http://forum.kodi.tv/forumdisplay.php?fid=194</forum>
+        <website>http://kodi.tv</website>
+        <source>https://github.com/kod-game/repository.kodi.game</source>
         <nofanart>true</nofanart>
         <platform>all</platform>
     </extension>
