@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+
 <addon id="content.game.internet.archive" name="Internet Archive Software Collection" version="1.0.0" provider-name="Garrett Brown">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -14,4 +15,130 @@ Based on Internet Archive ROM Launcher by Zach Morris.</description>
     <platform>all</platform>
   </extension>
 </addon>
+
+<addon id="game.controller.gba"
+        name="Game Boy Advance"
+        version="1.0.0"
+        provider-name="garbear">
+    <requires>
+        <import addon="kodi.game" version="1.0.0"/>
+    </requires>
+    <extension point="kodi.game.controller" library="layout.xml"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Game Boy Advance</summary>
+        <description>Game Boy Advance is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo.
+
+Layout credit: ThaFake (thafake.deviantart.com)</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <nofanart>true</nofanart>
+    </extension>
+</addon>
+
+<addon id="game.controller.genesis"
+        name="Sega Genesis Controller"
+        version="1.0.0"
+        provider-name="garbear">
+    <requires>
+        <import addon="kodi.game" version="1.0.0"/>
+    </requires>
+    <extension point="kodi.game.controller" library="layout.xml"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Sega Genesis controller</summary>
+        <description>The original Genesis controller had a directional pad, three main buttons and a start button. Sega later released a six-button version in 1993 with three additional face buttons.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <nofanart>true</nofanart>
+    </extension>
+</addon>
+
+<addon id="game.controller.n64"
+        name="N64 Controller"
+        version="1.0.0"
+        provider-name="garbear">
+    <requires>
+        <import addon="kodi.game" version="1.0.0"/>
+    </requires>
+    <extension point="kodi.game.controller" library="layout.xml"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Nintendo 64 controller</summary>
+        <description>The Nintendo 64 controller, released in 1996, features ten buttons, a digital control stick and a directional pad, all laid out in an "M" shape.
+
+Layout credit: Andrew Moore</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <nofanart>true</nofanart>
+    </extension>
+</addon>
+
+<addon id="game.controller.nes"
+        name="NES Controller"
+        version="1.0.0"
+        provider-name="garbear">
+    <requires>
+        <import addon="kodi.game" version="1.0.0"/>
+    </requires>
+    <extension point="kodi.game.controller" library="layout.xml"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>NES controller</summary>
+        <description>The game controller used for both the NES and the Famicom features a simple four button layout and a cross-shaped joypad.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <nofanart>true</nofanart>
+    </extension>
+</addon>
+
+<addon id="game.controller.ps"
+        name="PS Controller"
+        version="1.0.0"
+        provider-name="garbear">
+    <requires>
+        <import addon="kodi.game" version="1.0.0"/>
+    </requires>
+    <extension point="kodi.game.controller" library="layout.xml"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>PS controller</summary>
+        <description>The PlayStation Controller was a gamepad for the PlayStation. It was released by Sony Computer Entertainment in 1994.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <nofanart>true</nofanart>
+    </extension>
+</addon>
+
+<addon id="game.controller.saturn"
+        name="Sega Saturn Controller"
+        version="1.0.0"
+        provider-name="garbear">
+    <requires>
+        <import addon="kodi.game" version="1.0.0"/>
+    </requires>
+    <extension point="kodi.game.controller" library="layout.xml"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Sega Saturn controller</summary>
+        <description>Saturn controllers came in various color schemes to match different models of the console.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <nofanart>true</nofanart>
+    </extension>
+</addon>
+
+<addon id="game.controller.snes"
+        name="SNES Controller"
+        version="1.0.0"
+        provider-name="garbear">
+    <requires>
+        <import addon="kodi.game" version="1.0.0"/>
+    </requires>
+    <extension point="kodi.game.controller" library="layout.xml"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>SNES controller</summary>
+        <description>The SNES controller adds two additional face buttons (X and Y) to the NES iteration, as well as two shoulder buttons.
+
+layout.png credit: Alphathon (alphathon.deviantart.com)</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <nofanart>true</nofanart>
+    </extension>
+</addon>
+
 </addons>
