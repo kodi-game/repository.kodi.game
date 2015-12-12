@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+
 <addon id="content.game.internet.archive" name="Internet Archive Software Collection" version="1.0.0" provider-name="Garrett Brown">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -99,22 +100,6 @@ Layout credit: Andrew Moore</description>
     </extension>
 </addon>
 
-<addon id="game.controller.saturn"
-        name="Sega Saturn Controller"
-        version="1.0.0"
-        provider-name="garbear">
-    <requires>
-    </requires>
-    <extension point="kodi.game.controller" library="layout.xml"/>
-    <extension point="xbmc.addon.metadata">
-        <summary>Sega Saturn controller</summary>
-        <description>Saturn controllers came in various color schemes to match different models of the console.</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <nofanart>true</nofanart>
-    </extension>
-</addon>
-
 <addon id="game.controller.snes"
         name="SNES Controller"
         version="1.0.0"
@@ -132,5 +117,6 @@ layout.png credit: Alphathon (alphathon.deviantart.com)</description>
         <nofanart>true</nofanart>
     </extension>
 </addon>
+
 
 </addons>
