@@ -3,7 +3,7 @@
 
 <addon id="game.controller.dreamcast"
         name="Dreamcast Controller"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="garbear">
     <requires>
     </requires>
@@ -34,7 +34,7 @@ Based on Internet Archive ROM Launcher by Zach Morris.</description>
 
 <addon id="game.controller.gba"
         name="Game Boy Advance"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="garbear">
     <requires>
     </requires>
@@ -52,7 +52,7 @@ Layout credit: ThaFake (thafake.deviantart.com)</description>
 
 <addon id="game.controller.genesis"
         name="Sega Genesis Controller"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="garbear">
     <requires>
     </requires>
@@ -68,7 +68,7 @@ Layout credit: ThaFake (thafake.deviantart.com)</description>
 
 <addon id="game.controller.n64"
         name="N64 Controller"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="garbear">
     <requires>
     </requires>
@@ -86,7 +86,7 @@ Layout credit: Andrew Moore</description>
 
 <addon id="game.controller.nes"
         name="NES Controller"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="garbear">
     <requires>
     </requires>
@@ -102,7 +102,7 @@ Layout credit: Andrew Moore</description>
 
 <addon id="game.controller.ps"
         name="PS Controller"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="garbear">
     <requires>
     </requires>
@@ -118,7 +118,7 @@ Layout credit: Andrew Moore</description>
 
 <addon id="game.controller.snes"
         name="SNES Controller"
-        version="1.0.0"
+        version="1.0.1"
         provider-name="garbear">
     <requires>
     </requires>
@@ -133,6 +133,5 @@ layout.png credit: Alphathon (alphathon.deviantart.com)</description>
         <nofanart>true</nofanart>
     </extension>
 </addon>
-
 
 </addons>
